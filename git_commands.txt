@@ -1,0 +1,172 @@
+https://github.com/HoTT/book
+https://government.github.com/community/
+https://stackshare.io/git
+https://git-scm.com/
+https://www.canva.com/design/DAETQyFE6pM/mLt1oYF8gP_mqBS3ghb-BA/view?utm_content=DAETQyFE6pM&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton#54
+https://git-scm.com/download/win
+https://code.visualstudio.com/
+https://www.gitkraken.com/download/windows64
+
+---1---
+
+$ git --version
+$ git config --global user.name "Sergey Nikitin"
+$ git config user.name
+$ git config --global user.email sergey.m.nikitin.1986@gmail.com
+$ git config user.email
+
+$ ls
+$ start .
+$ ls Downloads/
+$ pwd
+$ cd Downloads/
+$ cd ..
+$ clear
+$ touch red.txt orange.py yellow.pdf
+$ mkdir Ter3 Ter2
+$ touch Ter/text.txt
+
+$ rm deliteMe.txt
+$ rm del1 del2
+$ ls -a
+$ rm -rf Ter3
+
+---4---
+
+$ git init
+$ git status
+$ rm -rf .git
+$ git add list2.txt
+$ git commit -m "start course git"
+$ git log
+$ git add . 
+$ code .
+
+---5---
+
+$ git commit
+i
+"Esc"
+:wq
+"enter"
+$ git config --global core.editor "code --wait"
+$ git log --oneline
+
+git commit --amend
+touch .gitignore
+
+$ git branch
+$ git branch oldies
+$ git switch master
+$ git commit -a -m "remove all songs"
+
+$ git checkout oldies
+$ git switch -c recentish-music
+$ git branch -d deleteMe
+$ git branch -D deleteMe
+$ git branch -m 2000s
+
+---6---
+
+$ git branch -v
+$ git switch master
+$ git merge oldies
+$ git log --graph --all
+code .
+
+---Diff---
+
+git diff
+$ code .
+$ git commit -am 'ad red'
+$ git diff
+$ git diff HEAD
+$ git diff --cached
+$ git diff --staged
+
+$ git diff --staged numbers.txt
+$ git diff --HEAD numbers.txt
+$ git diff e7b1f60..d99dcab
+$ git diff branch1..branch2
+
+$ git diff HEAD HEAD~1
+
+---stashing---
+
+$ git stash
+$ git stash pop
+$ git stash apply
+
+$ git stash list
+$ git stash apply stash@{2}
+$ git stash drop stash@{0}
+$ git stash clear
+
+---undoing---
+
+$ git checkout 60d648d
+$ git checkout HEAD~1
+$ git checkout HEAD dog.txt
+$ git checkout -- cat.txt dog.txt
+$ git restore --source HEAD~2 cat.txt  dog.txt
+$ git restore dog.txt
+$ git restore --staged sicret.txt
+$ git reset 288545f
+$ git switch -c badstuff
+$ git reset --hard 287d671
+$ git revert 287d671
+
+---github---
+https://docs.github.com/en/authentication/connecting-to-github-with-ssh/checking-for-existing-ssh-keys
+
+$ git clone https://github.com/poteto/hiring-without-whiteboards.git
+$ git config user.name
+$ ls -al ~/.ssh
+$ ssh-keygen -t ed25519 -C "sergey.m.nikitin.1986@gmail.com"
+$ eval "$(ssh-agent -s)"
+$ ssh-add ~/.ssh/id_ed25519
+$ clip < ~/.ssh/id_ed25519.pub
+
+$ git remote add origin https://github.com/smnikitin/Roadtrip.git
+$ git remote -v
+$ git push origin master
+$ git push -u origin dogs
+$ git push
+
+$ git branch -M MMM
+$ git barnch food
+
+---pulling---
+
+$ git checkout origin/main
+$ git switch -
+$ git branch
+$ git branch -r
+$ git switch movies
+$ git fetch origin movie
+$ git fetch origin
+$ git pull origin movie
+
+$ git pull origin movie
+$ git add .
+$ git commit -m 'add 2 lines'
+$ git push origin movie
+
+$ git branch --set-upstream-to=origin/movie movie
+$ git pull 
+
+https://markdown-it.github.io/
+### h3 Heading
+**This is bold text**
+
+```
+Sample text here...
+```
+
+[link text](http://dev.nodeca.com)
+
+https://gist.github.com/
+
+https://smnikitin.github.io/chikens/
+
+
