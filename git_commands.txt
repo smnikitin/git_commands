@@ -195,6 +195,7 @@ $ git tag -a v17.1.0
 $ git show v17.1.0
 $ git tag mytag 8a23def32
 $ git tag v17.0.9 15557fa67 -f
+$ git tag -d deliteme
 
 
 
