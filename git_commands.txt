@@ -208,6 +208,9 @@ $ git push origin --tags
 --- behind ---
 https://www.canva.com/design/DAEV-h9bSG4/R6FyldDe8CO8Wfn8z92yRA/view?utm_content=DAEV-h9bSG4&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton
 
+$ echo 'h' | git hash-object --stdin
+$ echo 'he' | git hash-object --stdin -w
+
 
 
 
