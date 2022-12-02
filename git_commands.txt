@@ -210,7 +210,11 @@ https://www.canva.com/design/DAEV-h9bSG4/R6FyldDe8CO8Wfn8z92yRA/view?utm_content
 
 $ echo 'h' | git hash-object --stdin
 $ echo 'he' | git hash-object --stdin -w
-
-
+$ git hash-object dog.txt -w
+$ git cat-file -p 5f5fbe759f10b9807b18f3898afd7505dbbfcbd2
+$ git cat-file -p 5f5fbe759f10b9807b18f3898afd7505dbbfcbd2 >dog.txt
+$ git cat-file -p master^{tree}
+$ git cat-file -p main^{tree}
+$ git cat-file -t 01849164caeaf4169197248dc5f431eb9a2d3cb8
 
 
