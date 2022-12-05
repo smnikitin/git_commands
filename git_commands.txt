@@ -217,4 +217,17 @@ $ git cat-file -p master^{tree}
 $ git cat-file -p main^{tree}
 $ git cat-file -t 01849164caeaf4169197248dc5f431eb9a2d3cb8
 
+---Reflogs---
+https://www.canva.com/design/DAEWorNx5_Q/piCbRO6BWwv9_ae_mahECA/view?utm_content=DAEWorNx5_Q&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton
+
+$ git reflog show HEAD
+$ git checkout HEAD@{2}
+$ git diff HEAD@{0} HEAD@{1}
+$ git diff main main@{one.minite.ago}
+$ git diff main main@{10.minite.ago}
+$ git reflog show main
+
+
+
+
 
