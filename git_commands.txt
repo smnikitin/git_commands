@@ -228,6 +228,11 @@ $ git diff main main@{10.minite.ago}
 $ git reflog show main
 
 
+---Aliases---
+https://www.canva.com/design/DAEWcidQeSI/m6VuuSGBgvBNsRcxfweqDA/view?utm_content=DAEWcidQeSI&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton#3
+
+$ cat ~/.gitconfig
+$ git config --global alias.br branch
 
 
 
