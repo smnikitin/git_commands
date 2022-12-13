@@ -125,6 +125,8 @@ $ git reset --hard 287d671
 $ git revert 287d671
 
 ---github---
+https://www.canva.com/design/DAEPtdekgz0/L9rfbid7gCFMGEZBLJcmlw/view?utm_content=DAEPtdekgz0&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton
+
 https://docs.github.com/en/authentication/connecting-to-github-with-ssh/checking-for-existing-ssh-keys
 
 $ git clone https://github.com/poteto/hiring-without-whiteboards.git
@@ -140,11 +142,11 @@ $ git remote -v
 $ git push origin master
 $ git push -u origin dogs
 $ git push
-
 $ git branch -M MMM
 $ git barnch food
 
 ---pulling---
+https://www.canva.com/design/DAEPyYicrxQ/EaXIXD_WWryEq7Z7YUSVlg/view?utm_content=DAEPyYicrxQ&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton
 
 $ git checkout origin/main
 $ git switch -
@@ -163,6 +165,9 @@ $ git push origin movie
 $ git branch --set-upstream-to=origin/movie movie
 $ git pull 
 
+---Odds & Ends--
+https://www.canva.com/design/DAEVGSMC0ew/9f6udCe20KrYAfwoD0zqHA/view?utm_content=DAEVGSMC0ew&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton#1
+
 https://markdown-it.github.io/
 ### h3 Heading
 **This is bold text**
@@ -177,8 +182,14 @@ https://gist.github.com/
 
 https://smnikitin.github.io/chikens/
 
----reabse---
+---workflows---
 
+https://www.canva.com/design/DAEP32iZwVc/4se77vKYGwT5_9NpxFbZoQ/view?utm_content=DAEP32iZwVc&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton#1
+
+---reabse---
+https://www.canva.com/design/DAEVkyNcwWI/qt8pRN3JA1lP9ckYeImxeQ/view?utm_content=DAEVkyNcwWI&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton
+
+https://www.canva.com/design/DAEVkyNcwWI/qt8pRN3JA1lP9ckYeImxeQ/view?utm_content=DAEVkyNcwWI&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton
 
 git switch feat
 git rebase master
@@ -199,6 +210,7 @@ drop
 
 ---tag---
 https://www.canva.com/design/DAEV5aEpUOQ/lfUIjJz2atC6fGT9KOv2kg/view?utm_content=DAEV5aEpUOQ&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton#5
+
 
 $ git tag
 $ git tag -l ''*beta*
