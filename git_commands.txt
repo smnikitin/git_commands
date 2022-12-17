@@ -73,6 +73,7 @@ $ git switch -c recentish-music
 $ git branch -d deleteMe
 $ git branch -D deleteMe
 $ git branch -m 2000s
+$ git push origin -d haiyanb
 
 ---Merging---
 https://www.canva.com/design/DAEUZEra8W0/b4I77uG1YJAu4q6UOTIG6Q/view?utm_content=DAEUZEra8W0&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton
